@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<time.h>
 #include<stdlib.h>
+#include"game.h"
 using namespace std;
 
 #define N 50
@@ -162,6 +163,9 @@ int main(void)
 
 	printf("≈≈–Ú÷Æ∫Û\n");
 	printNum(num);
+
+	Game g;
+	g.startGame();
 
 	return 0;
 }
